@@ -21,6 +21,7 @@ Hand sign it recognises:
 6. Okay
 7. (No sign)
 Additional info on the signs (images/brief videos) will be in the 'gestures' folder.
+Works better with good illumination and hands not far from the webcam.
 
 ## Technical details:
 The neural network model has been trained on a refined database, created from raw videos. Additional information on the data pipeline will be found inside the progetto_video_to_data notebook.
