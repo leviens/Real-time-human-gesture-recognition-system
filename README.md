@@ -21,7 +21,7 @@ Hand sign it recognises:
 6. Okay
 7. (No sign)
 
-Additional info on the signs (images/brief videos) will be in the 'gestures' folder.
+Additional info on the signs (images/video) will be in the 'Gestures' folder and in the demo.
 Works better with good illumination and hands not far from the webcam.
 
 ## Demo:
