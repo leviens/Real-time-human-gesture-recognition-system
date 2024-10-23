@@ -20,7 +20,7 @@ Hand sign it recognises:
 5. Stop/Five
 6. Okay
 7. (No sign)
-8. 
+
 Additional info on the signs (images/brief videos) will be in the 'gestures' folder.
 Works better with good illumination and hands not far from the webcam.
 
