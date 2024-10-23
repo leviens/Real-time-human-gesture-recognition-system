@@ -1,7 +1,7 @@
 # Real-time-human-gesture-recognition-system
 This project is a python based webcam integrated system to recognise some human gestures, created to work in real time.
 It makes use of mediapipe to extract hand landmarkers and then classifies the gestures in real time using a neural network model. 
-The model uses the keras framework and it has been trained from scratch.
+The model uses the keras framework and has been trained from scratch.
 
 ## Installation:
 1. Download python 3 (a version between 3.7 and 3.10 to be able to run mediapipe)
