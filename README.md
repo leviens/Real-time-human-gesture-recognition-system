@@ -5,7 +5,7 @@ The model uses the keras framework and has been trained from scratch.
 
 ## Installation:
 1. Download python 3 (a version between 3.7 and 3.10 to be able to run mediapipe)
-2. Download the required libraries (mediapipe, cv2, tensorflow, jupyter notebook to open the notebook and more if needed).
+2. Install the required libraries (mediapipe, cv2, tensorflow, jupyter notebook to open the notebook and more if needed).
 3. Download the progetto_webcam.ipynb from this repository.
 
 ## Usage:
