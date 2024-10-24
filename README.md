@@ -37,3 +37,6 @@ The videos have been taken by different people and in different cam scenarios, w
 However most of the data comes from videos of me in my room, therefore when used in different scenarios some loss in performance is to be expected.
 A lot of work is done by the mediapipe hand landmarker, and it will work differently with different setups and illumination conditions. 
 Whenever the webcam window shows the raw image, it means that no hand is being recognized by the mediapipe model, so those kind of error are unfixable working on just my model.
+
+## Licensing:
+This project uses Mediapipe, which is licensed under the Apache License 2.0. You can find the full license at [https://github.com/google/mediapipe/blob/master/LICENSE].
