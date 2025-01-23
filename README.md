@@ -4,7 +4,7 @@ It makes use of mediapipe to extract hand landmarkers and then classifies the ge
 The model uses the keras framework and has been trained from scratch.
 
 ## Installation:
-1. Download python 3 (a version between 3.7 and 3.12 to be able to run mediapipe)
+1. Download python 3 (a version between 3.7 and 3.12 to be able to run mediapipe, confirmed to work on 3.12.4).
 2. Install the required libraries (mediapipe, cv2, tensorflow, jupyter notebook to open the notebook and more if needed).
 3. Download the progetto_webcam.ipynb from this repository.
 
