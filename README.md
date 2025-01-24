@@ -28,7 +28,13 @@ Additional info on the signs (images/video) will be in the 'Gestures' folder and
 Illumination and setup differences may yield slightly less accurate results.
 
 ## Demo:
-Watch the demo on Google Drive: https://drive.google.com/file/d/1LaLFVfy8v0FwXdNyh2hdvEY2E0NYWXqv/view?usp=sharing
+Watch the demo on Google Drive: https://drive.google.com/file/d/1dfzahXi3ihxk6iCwaSifBRglMyFUQP15/view?usp=sharing
+
+Additional demos:
+
+Same implementation with hand landmarks: https://drive.google.com/file/d/1eQdI_6gFdtqtDqg9Pl2MSwwu6BH6tDuA/view?usp=sharing
+
+Old implementation: https://drive.google.com/file/d/1LaLFVfy8v0FwXdNyh2hdvEY2E0NYWXqv/view?usp=sharing
 
 ## Technical details:
 The neural network model has been trained from scratch on a refined database, created from raw videos. Additional information on the data pipeline will be found inside the video_to_data notebook.
