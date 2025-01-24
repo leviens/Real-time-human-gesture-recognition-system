@@ -24,6 +24,7 @@ These are the hand signs it recognises:
 8. (No sign)
 
 Additional info on the signs (images/video) will be in the 'Gestures' folder and in the demo.
+
 Illumination and setup differences may yield slightly less accurate results.
 
 ## Demo:
