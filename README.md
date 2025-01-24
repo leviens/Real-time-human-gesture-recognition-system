@@ -40,8 +40,10 @@ Each of the raw videos contain one single label, to remove the need for annotati
 The database is then used to train the neural network (which has a 3 layers architecture with dropout after each layer to handle overfitting) using the keras framework.
 
 The model obtains very high accuracy on the test set (99%), with close to perfect performance on every gesture, by various metrics (precision, recall, f1 score).
-The videos have been taken by different people and in different cam scenarios, with different webcams, to reduce the bias.
-However most of the data comes from videos of me in my room, therefore when used in different scenarios some loss in performance is to be expected.
+
+The videos have been taken by different people and in different cam scenarios, with different webcams, to reduce the bias;
+however, most of the data comes from videos of me in my room, therefore when used in different scenarios some loss in performance is to be expected.
+
 A lot of work is done by the mediapipe hand landmarker, and it will work differently with different setups and illumination conditions. 
 
 ## Licensing:
