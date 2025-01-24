@@ -10,7 +10,7 @@ The model uses the keras framework and has been trained from scratch.
 
 ## Usage:
 To use, you'll need a webcam. Then, just run the Webcam_livemode notebook until the last part.
-Then run the last part whenever you want to open the webcam window, and the system will be online, ready to recognise your hand signs. It will work on both hands (left and right), with different orientations (e.g. palm or the back of the hand), one at a time.
+Then run the last part whenever you want to open the webcam window, and the system will be online, ready to recognise your hand signs. It will work on both hands (left and right), with different orientations (e.g. palm or the back of the hand), even simultaneusly.
 Close the window by clicking 'q' on the keyboard.
 Hand sign it recognises:
 1. Thumb up
