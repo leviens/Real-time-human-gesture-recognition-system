@@ -12,17 +12,19 @@ The model uses the keras framework and has been trained from scratch.
 To use, you'll need a webcam. Then, just run the Webcam_livemode notebook until the last part.
 Then run the last part whenever you want to open the webcam window, and the system will be online, ready to recognise your hand signs. It will work on both hands (left and right), with different orientations (e.g. palm or the back of the hand), even simultaneusly.
 Close the window by clicking 'q' on the keyboard.
-Hand sign it recognises:
+
+These are the hand signs it recognises:
 1. Thumb up
 2. V sign
 3. Three
 4. Four
 5. Stop/Five
 6. Okay
-7. (No sign)
+7. Rock sign
+8. (No sign)
 
 Additional info on the signs (images/video) will be in the 'Gestures' folder and in the demo.
-Works better with good illumination and hands not far from the webcam.
+Illumination and setup differences may yield slightly less accurate results.
 
 ## Demo:
 Watch the demo on Google Drive: https://drive.google.com/file/d/1LaLFVfy8v0FwXdNyh2hdvEY2E0NYWXqv/view?usp=sharing
