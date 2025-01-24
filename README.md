@@ -31,15 +31,18 @@ Illumination and setup differences may yield slightly less accurate results.
 Watch the demo on Google Drive: https://drive.google.com/file/d/1LaLFVfy8v0FwXdNyh2hdvEY2E0NYWXqv/view?usp=sharing
 
 ## Technical details:
-The neural network model has been trained on a refined database, created from raw videos. Additional information on the data pipeline will be found inside the progetto_video_to_data notebook.
-In short, the video data is processed using various python libraries (such as cv2), and the mediapipe model is run on every frame extracting hand landmarker data, which is then further refined to create the database.
-The raw videos each contain one single label, and they are stored on remote.
+The neural network model has been trained from scratch on a refined database, created from raw videos. Additional information on the data pipeline will be found inside the video_to_data notebook.
+
+In short, the videos are processed using various python libraries (such as cv2), and the mediapipe model is run frame by frame extracting hand landmarker data, which is then further refined to create the database.
+
+Each of the raw videos contain one single label, to remove the need for annotations, and they are stored remotely.
+
 The database is then used to train the neural network (which has a 3 layers architecture with dropout after each layer to handle overfitting) using the keras framework.
-The model obtains a fairly high accuracy on the test set (98%), so the training has been succesful.
+
+The model obtains very high accuracy on the test set (99%), with close to perfect performance on every gesture, by various metrics (precision, recall, f1 score).
 The videos have been taken by different people and in different cam scenarios, with different webcams, to reduce the bias.
 However most of the data comes from videos of me in my room, therefore when used in different scenarios some loss in performance is to be expected.
 A lot of work is done by the mediapipe hand landmarker, and it will work differently with different setups and illumination conditions. 
-Whenever the webcam window shows the raw image, it means that no hand is being recognized by the mediapipe model, so those kind of error are unfixable working on just my model.
 
 ## Licensing:
 This project uses Mediapipe, which is licensed under the Apache License 2.0. You can find the full license at [https://github.com/google/mediapipe/blob/master/LICENSE].
