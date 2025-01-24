@@ -12,7 +12,7 @@ The model uses the keras framework and has been trained from scratch.
 To use, you'll need a webcam. Then, just run the Webcam_livemode notebook until the last part.
 Then run the last part whenever you want to open the webcam window, and the system will be online, ready to recognise your hand signs. It will work on both hands (left and right), with different orientations (e.g. palm or the back of the hand), even simultaneusly (and on multiple people).
 
-Ajdust the webcam resolution in the notebook for higher resolution (Full HD), default setting is 1080x720.
+Ajdust the webcam resolution in the notebook for higher resolution (Full HD), default setting is 1080x720. Hide the hand landmarks by commenting the "image = draw_landmarks_on_image(image, hand_landmarks)" line.
 
 Close the window by clicking 'q' on the keyboard.
 
